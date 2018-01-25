@@ -200,7 +200,7 @@ CropRectAspectFill(CGSize targetSize, CGSize sizeValueOfAspectRatio){
     }
 
     // Configured framesPerSecond will be ignored if it was lower than nominalFrameRate of AVAssetTrack
-    float const frameRate = MAX(request.framesPerSecond, ((AVAssetTrack *)assetTracks[0]).nominalFrameRate);
+	float const frameRate = request.framesPerSecond;// = MAX(request.framesPerSecond, ((AVAssetTrack *)assetTracks[0]).nominalFrameRate);
 
     // frameLength, not Integer
     double const frameLength = videoDurationInSec * frameRate;
@@ -269,6 +269,7 @@ CropRectAspectFill(CGSize targetSize, CGSize sizeValueOfAspectRatio){
         completionBlock(gifURL);
         gifURL = nil;
         request.progressHandler = nil;
+			NSLog(@"%f", frameRate);
     });
 }
 

@@ -35,7 +35,7 @@
 						//Request a video to gif conversion
 						NSGIFRequest * request = [NSGIFRequest requestWithSourceVideo:movieURL];
 						request.scalePreset = NSGIFScaleVeryLow;
-						request.framesPerSecond = 10;
+						request.framesPerSecond = 12;
 						//Log progress of the gif conversion
 						request.progressHandler = ^(double progress, NSUInteger position, NSUInteger length, CMTime time, BOOL *stop, NSDictionary *frameProperties) {
 							NSLog(@"%f - %lu - %lu - %lld - %@", progress, position, length, time.value, frameProperties);
