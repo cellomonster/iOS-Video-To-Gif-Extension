@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Gif-Converter</string>
+	<string>Convert to Gif</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -28,7 +28,7 @@
 			<string>TRUEPREDICATE</string>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
-		<string>MainInterface</string>
+		<string>Extension Interface copy</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.ui-services</string>
 	</dict>

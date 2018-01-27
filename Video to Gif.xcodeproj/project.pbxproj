@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		470164A3201987FD007E885A /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470164A2201987FD007E885A /* ActionViewController.m */; };
-		470164A6201987FD007E885A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470164A4201987FD007E885A /* MainInterface.storyboard */; };
 		470164AA201987FD007E885A /* Gif-Converter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4701649F201987FD007E885A /* Gif-Converter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		470164BF20198EBC007E885A /* NSGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 470164BC20198EBB007E885A /* NSGIF.m */; };
 		470164C5201996AD007E885A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470164C4201996AD007E885A /* Photos.framework */; };
-		4765DDBC2018E14800C3DB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765DDBB2018E14800C3DB25 /* AppDelegate.m */; };
-		4765DDBF2018E14800C3DB25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765DDBE2018E14800C3DB25 /* ViewController.m */; };
-		4765DDC22018E14800C3DB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4765DDC02018E14800C3DB25 /* Main.storyboard */; };
-		4765DDC42018E14800C3DB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4765DDC32018E14800C3DB25 /* Assets.xcassets */; };
-		4765DDC72018E14800C3DB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4765DDC52018E14800C3DB25 /* LaunchScreen.storyboard */; };
-		4765DDCA2018E14800C3DB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765DDC92018E14800C3DB25 /* main.m */; };
+		47B9BF5B201C2E6A006DE2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B9BF54201C2E69006DE2EB /* Assets.xcassets */; };
+		47B9BF5C201C2E6A006DE2EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B9BF55201C2E6A006DE2EB /* Info.plist */; };
+		47B9BF5D201C2E6A006DE2EB /* NSGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B9BF56201C2E6A006DE2EB /* NSGIF.m */; };
+		47B9BF5F201C2E6A006DE2EB /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B9BF5A201C2E6A006DE2EB /* ActionViewController.m */; };
+		47B9BF77201C2E9F006DE2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B9BF6F201C2E9E006DE2EB /* Assets.xcassets */; };
+		47B9BF78201C2E9F006DE2EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B9BF71201C2E9E006DE2EB /* AppDelegate.m */; };
+		47B9BF79201C2E9F006DE2EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B9BF72201C2E9E006DE2EB /* ViewController.m */; };
+		47B9BF7A201C2E9F006DE2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B9BF73201C2E9E006DE2EB /* main.m */; };
+		47B9BF7C201C2E9F006DE2EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B9BF76201C2E9F006DE2EB /* Info.plist */; };
+		47B9BF85201C35FE006DE2EB /* App Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B9BF84201C35FE006DE2EB /* App Interface.storyboard */; };
+		47B9BF89201C3A6B006DE2EB /* Extension Interface copy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B9BF88201C3A6A006DE2EB /* Extension Interface copy.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,24 +48,24 @@
 
 /* Begin PBXFileReference section */
 		4701649F201987FD007E885A /* Gif-Converter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gif-Converter.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		470164A1201987FD007E885A /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
-		470164A2201987FD007E885A /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
-		470164A5201987FD007E885A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		470164A7201987FD007E885A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		470164BB20198EBB007E885A /* NSGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSGIF.h; sourceTree = "<group>"; };
-		470164BC20198EBB007E885A /* NSGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSGIF.m; sourceTree = "<group>"; };
 		470164C220198F17007E885A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		470164C4201996AD007E885A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		4765DDB72018E14800C3DB25 /* Video to Gif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video to Gif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4765DDBA2018E14800C3DB25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4765DDBB2018E14800C3DB25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4765DDBD2018E14800C3DB25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4765DDBE2018E14800C3DB25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4765DDC12018E14800C3DB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4765DDC32018E14800C3DB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4765DDC62018E14800C3DB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4765DDC82018E14800C3DB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4765DDC92018E14800C3DB25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B9BF54201C2E69006DE2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Gif Converter/Assets.xcassets"; sourceTree = "<group>"; };
+		47B9BF55201C2E6A006DE2EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Gif Converter/Info.plist"; sourceTree = "<group>"; };
+		47B9BF56201C2E6A006DE2EB /* NSGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSGIF.m; path = "Gif Converter/NSGIF.m"; sourceTree = "<group>"; };
+		47B9BF57201C2E6A006DE2EB /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionViewController.h; path = "Gif Converter/ActionViewController.h"; sourceTree = "<group>"; };
+		47B9BF58201C2E6A006DE2EB /* NSGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSGIF.h; path = "Gif Converter/NSGIF.h"; sourceTree = "<group>"; };
+		47B9BF5A201C2E6A006DE2EB /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionViewController.m; path = "Gif Converter/ActionViewController.m"; sourceTree = "<group>"; };
+		47B9BF6F201C2E9E006DE2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Video to Gif/Assets.xcassets"; sourceTree = "<group>"; };
+		47B9BF70201C2E9E006DE2EB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Video to Gif/ViewController.h"; sourceTree = "<group>"; };
+		47B9BF71201C2E9E006DE2EB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Video to Gif/AppDelegate.m"; sourceTree = "<group>"; };
+		47B9BF72201C2E9E006DE2EB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Video to Gif/ViewController.m"; sourceTree = "<group>"; };
+		47B9BF73201C2E9E006DE2EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Video to Gif/main.m"; sourceTree = "<group>"; };
+		47B9BF75201C2E9E006DE2EB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Video to Gif/AppDelegate.h"; sourceTree = "<group>"; };
+		47B9BF76201C2E9F006DE2EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Video to Gif/Info.plist"; sourceTree = "<group>"; };
+		47B9BF84201C35FE006DE2EB /* App Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "App Interface.storyboard"; path = "Video to Gif/App Interface.storyboard"; sourceTree = "<group>"; };
+		47B9BF88201C3A6A006DE2EB /* Extension Interface copy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Extension Interface copy.storyboard"; path = "Gif Converter/Extension Interface copy.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,19 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		470164A0201987FD007E885A /* Gif-Converter */ = {
-			isa = PBXGroup;
-			children = (
-				470164A1201987FD007E885A /* ActionViewController.h */,
-				470164A2201987FD007E885A /* ActionViewController.m */,
-				470164BB20198EBB007E885A /* NSGIF.h */,
-				470164BC20198EBB007E885A /* NSGIF.m */,
-				470164A4201987FD007E885A /* MainInterface.storyboard */,
-				470164A7201987FD007E885A /* Info.plist */,
-			);
-			path = "Gif-Converter";
-			sourceTree = "<group>";
-		};
 		470164C120198F17007E885A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +99,8 @@
 		4765DDAE2018E14800C3DB25 = {
 			isa = PBXGroup;
 			children = (
-				4765DDB92018E14800C3DB25 /* Video to Gif */,
-				470164A0201987FD007E885A /* Gif-Converter */,
+				47B9BF7E201C2EAC006DE2EB /* App */,
+				47B9BF60201C2E70006DE2EB /* Extension */,
 				4765DDB82018E14800C3DB25 /* Products */,
 				470164C120198F17007E885A /* Frameworks */,
 			);
@@ -126,20 +115,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4765DDB92018E14800C3DB25 /* Video to Gif */ = {
+		47B9BF60201C2E70006DE2EB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4765DDBA2018E14800C3DB25 /* AppDelegate.h */,
-				4765DDBB2018E14800C3DB25 /* AppDelegate.m */,
-				4765DDBD2018E14800C3DB25 /* ViewController.h */,
-				4765DDBE2018E14800C3DB25 /* ViewController.m */,
-				4765DDC02018E14800C3DB25 /* Main.storyboard */,
-				4765DDC32018E14800C3DB25 /* Assets.xcassets */,
-				4765DDC52018E14800C3DB25 /* LaunchScreen.storyboard */,
-				4765DDC82018E14800C3DB25 /* Info.plist */,
-				4765DDC92018E14800C3DB25 /* main.m */,
+				47B9BF88201C3A6A006DE2EB /* Extension Interface copy.storyboard */,
+				47B9BF54201C2E69006DE2EB /* Assets.xcassets */,
+				47B9BF55201C2E6A006DE2EB /* Info.plist */,
+				47B9BF57201C2E6A006DE2EB /* ActionViewController.h */,
+				47B9BF5A201C2E6A006DE2EB /* ActionViewController.m */,
+				47B9BF58201C2E6A006DE2EB /* NSGIF.h */,
+				47B9BF56201C2E6A006DE2EB /* NSGIF.m */,
 			);
-			path = "Video to Gif";
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		47B9BF7E201C2EAC006DE2EB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				47B9BF84201C35FE006DE2EB /* App Interface.storyboard */,
+				47B9BF6F201C2E9E006DE2EB /* Assets.xcassets */,
+				47B9BF76201C2E9F006DE2EB /* Info.plist */,
+				47B9BF70201C2E9E006DE2EB /* ViewController.h */,
+				47B9BF72201C2E9E006DE2EB /* ViewController.m */,
+				47B9BF75201C2E9E006DE2EB /* AppDelegate.h */,
+				47B9BF71201C2E9E006DE2EB /* AppDelegate.m */,
+				47B9BF73201C2E9E006DE2EB /* main.m */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470164A6201987FD007E885A /* MainInterface.storyboard in Resources */,
+				47B9BF89201C3A6B006DE2EB /* Extension Interface copy.storyboard in Resources */,
+				47B9BF5C201C2E6A006DE2EB /* Info.plist in Resources */,
+				47B9BF5B201C2E6A006DE2EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,9 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4765DDC72018E14800C3DB25 /* LaunchScreen.storyboard in Resources */,
-				4765DDC42018E14800C3DB25 /* Assets.xcassets in Resources */,
-				4765DDC22018E14800C3DB25 /* Main.storyboard in Resources */,
+				47B9BF77201C2E9F006DE2EB /* Assets.xcassets in Resources */,
+				47B9BF85201C35FE006DE2EB /* App Interface.storyboard in Resources */,
+				47B9BF7C201C2E9F006DE2EB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470164A3201987FD007E885A /* ActionViewController.m in Sources */,
-				470164BF20198EBC007E885A /* NSGIF.m in Sources */,
+				47B9BF5F201C2E6A006DE2EB /* ActionViewController.m in Sources */,
+				47B9BF5D201C2E6A006DE2EB /* NSGIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4765DDBF2018E14800C3DB25 /* ViewController.m in Sources */,
-				4765DDCA2018E14800C3DB25 /* main.m in Sources */,
-				4765DDBC2018E14800C3DB25 /* AppDelegate.m in Sources */,
+				47B9BF79201C2E9F006DE2EB /* ViewController.m in Sources */,
+				47B9BF7A201C2E9F006DE2EB /* main.m in Sources */,
+				47B9BF78201C2E9F006DE2EB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,40 +274,14 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		470164A4201987FD007E885A /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				470164A5201987FD007E885A /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		4765DDC02018E14800C3DB25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4765DDC12018E14800C3DB25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4765DDC52018E14800C3DB25 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4765DDC62018E14800C3DB25 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		470164AC201987FD007E885A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExtensionIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U934K66Z9Q;
-				INFOPLIST_FILE = "Gif-Converter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Gif Converter/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.trevir.utilities.Video-to-Gif.Gif-Converter";
@@ -316,9 +294,10 @@
 		470164AD201987FD007E885A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExtensionIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U934K66Z9Q;
-				INFOPLIST_FILE = "Gif-Converter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Gif Converter/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.trevir.utilities.Video-to-Gif.Gif-Converter";
@@ -332,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -387,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
