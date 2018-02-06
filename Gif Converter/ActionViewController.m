@@ -23,6 +23,10 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
+	[PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+		
+	}];
+	
 	//Items picked
 	for (NSExtensionItem *item in self.extensionContext.inputItems) {
 		for (NSItemProvider *itemProvider in item.attachments) {
